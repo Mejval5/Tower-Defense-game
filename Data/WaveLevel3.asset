@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36de4a7f9c473946b94151349c65313, type: 3}
+  m_Name: WaveLevel3
+  m_EditorClassIdentifier: 
+  Waves:
+  - WaveEnemies:
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3,
+        type: 3}
+      EnemyAmount: 30
+    Delay: 2
+    ShuffledEnemies:
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+  - WaveEnemies:
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3,
+        type: 3}
+      EnemyAmount: 25
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25,
+        type: 3}
+      EnemyAmount: 30
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 8aa43339ccbd9a640bc9c402f2965894,
+        type: 3}
+      EnemyAmount: 3
+    Delay: 1.5
+    ShuffledEnemies:
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+  - WaveEnemies:
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3,
+        type: 3}
+      EnemyAmount: 5
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25,
+        type: 3}
+      EnemyAmount: 5
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 8aa43339ccbd9a640bc9c402f2965894,
+        type: 3}
+      EnemyAmount: 10
+    Delay: 1
+    ShuffledEnemies:
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+  - WaveEnemies:
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3,
+        type: 3}
+      EnemyAmount: 5
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25,
+        type: 3}
+      EnemyAmount: 5
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 15c5f7a2ae944d8428cdc4a26640120c,
+        type: 3}
+      EnemyAmount: 10
+    Delay: 1
+    ShuffledEnemies:
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+  - WaveEnemies:
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3,
+        type: 3}
+      EnemyAmount: 5
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25,
+        type: 3}
+      EnemyAmount: 20
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 15c5f7a2ae944d8428cdc4a26640120c,
+        type: 3}
+      EnemyAmount: 10
+    - EnemyPrefab: {fileID: 3478465091694998611, guid: 8aa43339ccbd9a640bc9c402f2965894,
+        type: 3}
+      EnemyAmount: 10
+    Delay: 1
+    ShuffledEnemies:
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: 7d29d026ef304494da733e970f1fae25, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+    - {fileID: 3478465091694998611, guid: bf1dfe61f7484224bb480579f9ae26b3, type: 3}
+  WaveDelay: 3
